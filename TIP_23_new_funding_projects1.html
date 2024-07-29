@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_034ad8d9a3df597eb3b040ea3b17ade0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_034ad8d9a3df597eb3b040ea3b17ade0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_034ad8d9a3df597eb3b040ea3b17ade0 = L.map(
+                "map_034ad8d9a3df597eb3b040ea3b17ade0",
+                {
+                    center: [61.60428125, -149.32459625],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_163129237dae305ffb17139e54c58ea2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_034ad8d9a3df597eb3b040ea3b17ade0);
+        
+    
+            var marker_58984c12a6d674318224a1f945f2eb87 = L.marker(
+                [61.59936, -149.148487],
+                {}
+            ).addTo(map_034ad8d9a3df597eb3b040ea3b17ade0);
+        
+    
+        var popup_839b9f9337ef4bca976d12ce27ad84c7 = L.popup({"maxWidth": 300});
+
+        
+            var html_2c951f8fb72197508c8561fafccf3e3b = $(`<div id="html_2c951f8fb72197508c8561fafccf3e3b" style="width: 100.0%; height: 100.0%;">Hemmer Road to Valley Pathways<br>Extension of Hemmer Road to connect Valley Pathways School on France Road to Palmer-Wasilla Highway.<br>Estimated Cost: $6.5 million<br>Completion Date: 2027</div>`)[0];
+            popup_839b9f9337ef4bca976d12ce27ad84c7.setContent(html_2c951f8fb72197508c8561fafccf3e3b);
+        
+
+        marker_58984c12a6d674318224a1f945f2eb87.bindPopup(popup_839b9f9337ef4bca976d12ce27ad84c7)
+        ;
+
+        
+    
+    
+            marker_58984c12a6d674318224a1f945f2eb87.bindTooltip(
+                `<div>
+                     Hemmer Road to Valley Pathways
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec95e41b98a9ebf750490c991f6ea5da = L.marker(
+                [61.551483, -149.4506],
+                {}
+            ).addTo(map_034ad8d9a3df597eb3b040ea3b17ade0);
+        
+    
+        var popup_2e3b91fe3afbc00cf7da24d5bdc38aa9 = L.popup({"maxWidth": 300});
+
+        
+            var html_a4b5e782f29b72990aef5b98fa882e5d = $(`<div id="html_a4b5e782f29b72990aef5b98fa882e5d" style="width: 100.0%; height: 100.0%;">Fern Street<br>Upgrades, reconstruction and a bicycle lane for Fern Street between Fairview Loop Road and Knik-Goose Bay Road.<br>Estimated Cost: $4 million<br>Completion Date: 2026</div>`)[0];
+            popup_2e3b91fe3afbc00cf7da24d5bdc38aa9.setContent(html_a4b5e782f29b72990aef5b98fa882e5d);
+        
+
+        marker_ec95e41b98a9ebf750490c991f6ea5da.bindPopup(popup_2e3b91fe3afbc00cf7da24d5bdc38aa9)
+        ;
+
+        
+    
+    
+            marker_ec95e41b98a9ebf750490c991f6ea5da.bindTooltip(
+                `<div>
+                     Fern Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d364b47d9365491ca2dca211882c26ac = L.marker(
+                [61.60893, -149.450781],
+                {}
+            ).addTo(map_034ad8d9a3df597eb3b040ea3b17ade0);
+        
+    
+        var popup_3ceb7e4b170540148bdc94f79bc4fe2f = L.popup({"maxWidth": 300});
+
+        
+            var html_0eb0b8a0131739d195a2adc6af5ff91d = $(`<div id="html_0eb0b8a0131739d195a2adc6af5ff91d" style="width: 100.0%; height: 100.0%;">Lucill Street<br>Reconstruction, a turn lane to Tanaina Elementary School and upgrades to a bike lane on Lucille Street from Spruce Street to Seldon Road.<br>Estimated Cost: $4 million<br>Completion Date: 2027</div>`)[0];
+            popup_3ceb7e4b170540148bdc94f79bc4fe2f.setContent(html_0eb0b8a0131739d195a2adc6af5ff91d);
+        
+
+        marker_d364b47d9365491ca2dca211882c26ac.bindPopup(popup_3ceb7e4b170540148bdc94f79bc4fe2f)
+        ;
+
+        
+    
+    
+            marker_d364b47d9365491ca2dca211882c26ac.bindTooltip(
+                `<div>
+                     Lucill Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adf5db1bc9e0d82b76e1efc72623c9a2 = L.marker(
+                [61.657352, -149.248517],
+                {}
+            ).addTo(map_034ad8d9a3df597eb3b040ea3b17ade0);
+        
+    
+        var popup_e6d81206a0eca73946f07346a1ae7560 = L.popup({"maxWidth": 300});
+
+        
+            var html_f76217e86529dbce053415dc6bda90c4 = $(`<div id="html_f76217e86529dbce053415dc6bda90c4" style="width: 100.0%; height: 100.0%;">Tex Al to Palmer Fishhook Extension<br>Extension of Tex Al Drive from its existing terminus west of Palmer-Fishhook Drive to Engstrom Road to create a major collector for three miles from Wasilla-Fishhook Drive to Palmer-Fishhook Drive.<br>Estimated Cost: $4 million<br>Completion Date: 2028</div>`)[0];
+            popup_e6d81206a0eca73946f07346a1ae7560.setContent(html_f76217e86529dbce053415dc6bda90c4);
+        
+
+        marker_adf5db1bc9e0d82b76e1efc72623c9a2.bindPopup(popup_e6d81206a0eca73946f07346a1ae7560)
+        ;
+
+        
+    
+    
+            marker_adf5db1bc9e0d82b76e1efc72623c9a2.bindTooltip(
+                `<div>
+                     Tex Al to Palmer Fishhook Extension
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
